@@ -1,0 +1,22 @@
+# Terraform / Terragrunt working files
+.terraform/
+.terragrunt-cache/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+tfplan
+*.tfplan
+
+# Variable files can contain account IDs and secrets
+*.tfvars
+*.tfvars.json
+
+# Local environment files (Databricks and AWS credentials)
+.env
+.env.*
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
